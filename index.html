@@ -1,20 +1,226 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <title>Title</title>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
-  </head>
-  <body>
-      
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
-  </body>
+<head>
+  <title>Gretong - Bootstrap 4 & Font Awesome 5</title>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="icon" href="img/mb_logo.ico">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css">
+  <script defer src="https://use.fontawesome.com/releases/v5.0.4/js/all.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand text-uppercase" href="#">
+        <img class="w-10" src="img/mb_logo.svg" alt="Logo"> Gretong</a>
+      <button class="navbar-toggler hidden-lg-up" type="button" data-toggle="collapse" data-target="#collapsibleNavId" aria-controls="collapsibleNavId"
+        aria-expanded="false" aria-label="Toggle navigation"></button>
+      <div class="collapse navbar-collapse" id="collapsibleNavId">
+        <form class="form-inline ml-auto my-2 my-lg-0">
+          <input class="form-control form-control-sm form-search" type="text" placeholder="Szukaj">
+          <button class="btn btn-white btn-search btn-sm mr-4" type="submit">
+            <i class="fas fa-search fa-sm"></i>
+          </button>
+        </form>
+        <ul class="navbar-nav mt-2 mt-lg-0">
+          <li class="nav-item">
+            <a class="nav-link small text-uppercase" href="#">
+              <i class="fas fa-home"></i> Strona główna</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link small text-uppercase" href="#">
+              <i class="fas fa-columns"></i> Panel</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link small text-uppercase" href="#">
+              <i class="fas fa-shopping-basket"></i> Koszyk</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link small text-uppercase" href="#">
+              <i class="fas fa-shopping-basket"></i> Ustawienia</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link small text-uppercase" href="#">
+              <i class="fas fa-sign-in-alt"></i> Zaloguj</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div class="container-fluid px-7">
+    <section id="section-sales">
+      <div class="row">
+        <div class="col-12 col-md-10">
+          <h5 class="card-header">Najlepsze kursy w kategorii „Tworzenie gier”</h5>
+        </div>
+        <div class="col-12 col-md-2">
+          <a href="#" class="card-link">
+            <h5 class="card-header text-right">Zobacz wszystko</h5>
+          </a>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-12 col-md-2">
+          <div class="card">
+            <img class="card-img-top" src="img/1-min.jpg" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text small">Some quick example text to build.</p>
+              <p class="lead font-weight-bold text-right">599,00 zł</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-2">
+          <div class="card">
+            <img class="card-img-top" src="img/2-min.jpg" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text small">Some quick example text to build.</p>
+              <p class="lead font-weight-bold text-right">599,00 zł</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-2">
+          <div class="card">
+            <img class="card-img-top" src="img/3-min.jpg" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text small">Some quick example text to build.</p>
+              <p class="lead font-weight-bold text-right">599,00 zł</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-2">
+          <div class="card">
+            <img class="card-img-top" src="img/8-min.jpg" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text small">Some quick example text to build.</p>
+              <p class="lead font-weight-bold text-right">599,00 zł</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-2">
+          <div class="card">
+            <img class="card-img-top" src="img/2-min.jpg" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text small">Some quick example text to build.</p>
+              <p class="lead font-weight-bold text-right">599,00 zł</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-2">
+          <div class="card">
+            <img class="card-img-top" src="img/3-min.jpg" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text small">Some quick example text to build.</p>
+              <p class="lead font-weight-bold text-right">599,00 zł</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="section-products">
+      <div class="row">
+        <div class="col-12 col-md-10">
+          <h5 class="card-header">Najlepsze kursy w kategorii „Tworzenie stron internetowych”</h5>
+        </div>
+        <div class="col-12 col-md-2">
+          <a href="#" class="card-link">
+            <h5 class="card-header text-right">Zobacz wszystko</h5>
+          </a>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-12 col-md-2">
+          <div class="card">
+            <img class="card-img-top" src="img/1-min.jpg" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text small">Some quick example text to build.</p>
+              <p class="lead font-weight-bold text-right">599,00 zł</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-2">
+          <div class="card">
+            <img class="card-img-top" src="img/2-min.jpg" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text small">Some quick example text to build.</p>
+              <p class="lead font-weight-bold text-right">599,00 zł</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-2">
+          <div class="card">
+            <img class="card-img-top" src="img/3-min.jpg" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text small">Some quick example text to build.</p>
+              <p class="lead font-weight-bold text-right">599,00 zł</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-2">
+          <div class="card">
+            <img class="card-img-top" src="img/8-min.jpg" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text small">Some quick example text to build.</p>
+              <p class="lead font-weight-bold text-right">599,00 zł</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-2">
+          <div class="card">
+            <img class="card-img-top" src="img/2-min.jpg" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text small">Some quick example text to build.</p>
+              <p class="lead font-weight-bold text-right">599,00 zł</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-2">
+          <div class="card">
+            <img class="card-img-top" src="img/3-min.jpg" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text small">Some quick example text to build.</p>
+              <p class="lead font-weight-bold text-right">599,00 zł</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <footer class="text-white text-center pb-3 mt-5">
+      <div class="container">
+          <hr class="bg-white mt-0">
+          <p class="mb-0 text-dark">
+              <a href="https://github.com/marcinbarszcz" class="text-uppercase text-secondary">
+                  <i class="fab fa-github"></i> Marcin Barszcz</a> © 2018 ALL RIGHTS RESERVED</p>
+      </div>
+  </footer>
+
+
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js"></script>
+</body>
+
 </html>
